@@ -20,7 +20,7 @@
       }
    }
    
-   ArrayList<Product> list = (ArrayList<Product>) session.getAttribute("cartlist");
+   ArrayList<Product> list =(ArrayList<Product>) session.getAttribute("cartlist");
    //세션 속성 유효성검사 후 세션 속성 생성
    if (list == null) { 
       list = new ArrayList<Product>();
